@@ -24,7 +24,7 @@ export default class Deck {
     return this.cards.length
   }
 
-  pop() {
+  shift() {
     return this.cards.shift()
   }
 

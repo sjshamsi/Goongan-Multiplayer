@@ -1,0 +1,22 @@
+{
+  "name": "goongan-multiplayer",
+  "version": "1.0.0",
+  "description": "This is a multiplayer browser adaptation of the popular Cypriot game, Goongan!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjshamsi/Goongan-Multiplayer.git"
+  },
+  "author": "Shoaib Shamsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjshamsi/Goongan-Multiplayer/issues"
+  },
+  "homepage": "https://github.com/sjshamsi/Goongan-Multiplayer#readme",
+  "dependencies": {
+    "socket.io": "^4.1.3"
+  }
+}

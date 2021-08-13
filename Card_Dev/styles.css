@@ -1,0 +1,56 @@
+body {
+    background: grey;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.hand {
+    display: flex;
+}
+
+.card {
+    box-sizing: border-box;
+    background: white;
+    border-radius: 0.5rem;
+    width: 150px;
+    height: 214px;
+    margin:10px;
+    background-color: white;
+    border: 1px #555555 solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 0px #000000; 
+    box-shadow: 2px 2px 3px 0px #000000;
+    float: left;
+}
+
+.card:not(:first-child) {
+    margin-left: -7rem;
+}
+
+.myCard {
+    background-image: url("./deck.png");
+    background-position-x: 0px;
+    background-position-y: center;
+    background-repeat: none;
+    background-position: middle center;
+    transition: 0.1s;
+}
+
+.myCard:hover {
+    transform: translateY(-1rem);
+}
+
+.myCard:hover ~ .card {
+    transform: translateX(7rem);
+}
+
+.oppCard {
+    background-image: url("./deck.png");
+    background-position-x: 0px;
+    background-position-y: center;
+    background-repeat: none;
+    background-position: middle center;
+}
